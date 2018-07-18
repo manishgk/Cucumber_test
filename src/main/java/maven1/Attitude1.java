@@ -1,4 +1,4 @@
-package maven2;
+package maven1;
 
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
