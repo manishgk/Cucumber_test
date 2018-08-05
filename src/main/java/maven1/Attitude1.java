@@ -19,7 +19,7 @@ public void Machine1(String s1) throws Throwable
 {
     if(s1.equals("1"))
     {
-    System.out.println("Green");
+    System.out.println("Green and Red");
     }
     
  
@@ -29,7 +29,7 @@ public void Machine2(String s2) throws Throwable
 {
 	if(s2.equals("1"))
 	{
-    System.out.println("Green again");
+    System.out.println("Green and Red again");
 	}
 }
 @When("^I press the coffee button$")
@@ -40,7 +40,7 @@ public void Machine3() throws Throwable
 @Then("^I should be served a coffee$")
 public void Machine4() throws Throwable
 {
-	System.out.println("Coffee served");
+	System.out.println("Coffee served again");
 }
 
 	}
